@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joey.qrcodelibrary">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application>
+        <activity android:name=".zxing.android.CaptureActivity"/>
+        <activity android:name=".zxing.android.PreferencesActivity"/>
+    </application>
+
+</manifest>
